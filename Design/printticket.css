@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+.partnert_main_wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.navigation_bar_partner_panel{
+    background-color: rgb(108, 151, 238);
+    display: flex;
+    height: 10%;
+    padding: 10px 20px 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation_bar_partner_panel_right_componenet{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.image_div_component{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 218, 223);
+    padding: 5px;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius:100%;
+}
+.navigation_bar_partner_panel_right_componenet p{
+    font-size: 1.5rem;
+    color: rgb(246, 245, 243);
+    font-weight: bold;
+}
+.logo h1{
+    cursor: pointer;
+    color: rgb(218, 255, 6);
+}
+/* 
+This is end of navigation bar css coding */
+
+/* This is partner body css coding */
+.partner_main_body_wrapper{
+    display: flex;
+    height: 100vh;
+}
+.left_warpper{
+    padding: 10px;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(248, 247, 245);
+}
+.welcome_image{
+    width: 100%;
+    height: 20em;
+    background: url("Assert/6347087.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.right_wrapper{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background: url("Assert/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tab_items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    background-color: rgb(235, 244, 244);
+    border: 1px solid rgb(105, 103, 103);
+}
+.tab_items button{
+    width: 100%;
+    background-color: rgb(235, 244, 244);
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    float: left;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #f77064;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    padding: 10px;
+    display: none;
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: #fffefe;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .tabcontent h3{
+    font-size: 1.8rem;
+    color: #f77064;
+  }
+  .tabcontent p{
+    margin-top: 10px;
+    color: rgb(88, 82, 75);
+  }
+  .firstView{
+    display: block;
+  }
+
+
+  .user_input_main_wrapper{
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .search_item_add_event_page{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .user_input_letft_wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .userinputItems{
+    margin-top: 10px;
+  }
+  .userinputItems input{
+    height: 2.5em;
+    width: 15em;
+  }
+  .userinputItems label{
+    color: #393737;
+    font-size: 1.2rem
+    ;
+  }
+  .crud_button{
+    text-align: center;
+    margin-top: 25px;
+  }
+  .crud_button button:nth-child(1){
+    cursor: pointer;
+    background-color: rgb(45, 155, 246);
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 5em;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .crud_button button:nth-child(2){
+    cursor: pointer;
+    background-color: rgb(25, 155, 42);
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 5em;
+    padding: 5px;
+    border-radius: 5px;
+}
+.crud_button button:nth-child(3){
+    cursor: pointer;
+    background-color: rgb(190, 17, 17);
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 5em;
+    padding: 5px;
+    border-radius: 5px;
+}
+.userinputItems button{
+    cursor: pointer;
+    background-color: rgb(45, 155, 246);
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 5em;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* This is new css code  */
+.details_main_wrapper{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.details_left_wrapper{
+    width: 50%;
+}
+.details_left_wrapper h2{
+    margin-bottom: 10px;
+}
+.details_right_wrapper{
+    width: 50%;
+}
+.details_items input{
+    width: 75%;
+    height: 2.5em;
+    margin-bottom: 10px;
+}
+.booking_summary_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.check_box_details{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.check_box_details p{
+    margin-top: 0;
+}
+.payment_mages{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pay_button button{
+    width: 50%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #5dadde;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ticket_main_wrapper{
+    width: 80%;
+    margin: 20px auto;
+    height: 15em;
+    background: url("Assert/usereventticket.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.ticket_btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.ticket_btn button{
+    width: 30%;
+    height: 3.5em;
+    padding: 10px;
+    background-color: #5dadde;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.ticket_btn button:first-child{
+    background-color: rgb(10, 236, 40);
+    color: black;
+    font-weight: bold;
+}
+.ticket_btn button:last-child{
+    background-color: rgb(18, 95, 190);
+    color: rgb(254, 255, 255);
+    font-weight: bold;
+}
+.ticket_main_wrapper h3{
+    color: rgb(218, 167, 59);
+    font-size: 1.5rem;
+}
+
+.header_comp{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.top_header{
+    margin-top: 10px;
+}
+.header_comp p{
+    color:rgb(218, 167, 59);
+}
+.main_dev{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item_flex{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.item_flex p{
+    color: white;
+}
+.second_flex{
+    text-align: center;
+}
+.second_flex p{
+    color: white;
+}
+#date{
+    font-size: 2rem;
+    font-weight: bold;
+}

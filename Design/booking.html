@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking.css">
+    <script defer src="admin.js"></script>
+    <title>Booking</title>
+</head>
+<body>
+    <div class="partnert_main_wrapper">
+        <div class="navigation_bar_partner_panel">
+            <div class="logo">
+                <h1 id="">Debra</h1>
+            </div>
+            <div class="navigation_bar_partner_panel_right_componenet">
+                <div class="image_div_component">
+                    <img src="Assert/user.png" width="25" alt="" srcset="">
+                </div>
+                <p>User</p>
+            </div>
+        </div>
+
+        <div class="partner_main_body_wrapper">
+            <div class="left_warpper">
+                <div class="tab">
+                    <div class="tab_items">
+                        <img src="Assert/home.png" width="30" height="30" alt="" srcset="">
+                        <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+                    </div>
+                    <div class="tab_items">
+                        <img src="Assert/event.png" width="30" height="30" alt="" srcset="">
+                        <button class="tablinks" onclick="openCity(event, 'Add_Event')">Ticket Booking</button>
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <img src="Assert/the.png" width="220" alt="">
+                  </div>
+            </div>
+            <div class="right_wrapper">
+                <div id="Home" class="tabcontent firstView">
+                    <h3>Booking Details</h3>
+                    <form action="">
+                        <div class="details_main_wrapper">
+                            <div class="details_left_wrapper">
+                                <h2>Billing Details</h2>
+                                <div class="details_items">
+                                    <input type="text" placeholder="Full Name">
+                                </div>
+                                <div class="details_items">
+                                    <input type="text" placeholder="Email Address">
+                                </div>
+                                <div class="details_items">
+                                    <input type="text" placeholder="Phone No">
+                                </div>
+                                <div class="details_items">
+                                    <input type="text" placeholder="Nic/Passport/Driving Licnecse">
+                                </div>
+                                <div class="details_items">
+                                    <input type="text" placeholder="Qontity">
+                                </div>
+                                <div class="pay_button">
+                                    <button>Check Total</button>
+                                </div>
+                            </div>
+                            <div class="details_right_wrapper">
+                                <h2>Booking Summary</h2>
+                                <div>
+                                     <div class="booking_summary_flex">
+                                        <p>Sub Total</p>
+                                        <p>9,000.00LKR</p>
+                                     </div>
+                                     <div class="booking_summary_flex">
+                                        <p>Convenience Fees(1%)</p>
+                                        <p>+90.00LKR</p>
+                                     </div>
+                                     <div class="booking_summary_flex">
+                                        <p>Total</p>
+                                        <p>990.00LKR</p>
+                                     </div>
+                                </div>
+                                <div class="payment_mages">
+                                    <img src="Assert/Visa&mastercard.png" width="70" alt="" srcset="">
+                                    <img src="Assert/Skrill.png" alt="" width="70" srcset="">
+                                    <img src="Assert/AmericanExpress.png" alt="" width="70" srcset="">
+                                </div>
+                                <div class="check_box_details">
+                                    <input type="checkbox" name="" id="">
+                                    <p>* I accept and agree to Terms and Conditions</p>
+                                </div>
+                                <div class="pay_button">
+                                    <button>Pay</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                  </div>
+                  
+            </div>
+        </div>
+    </div>
+</body>
+</html>

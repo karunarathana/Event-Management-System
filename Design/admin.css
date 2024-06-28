@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+.partnert_main_wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.navigation_bar_partner_panel{
+    background-color: rgb(108, 151, 238);
+    display: flex;
+    height: 10%;
+    padding: 10px 20px 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation_bar_partner_panel_right_componenet{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.image_div_component{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 218, 223);
+    padding: 5px;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius:100%;
+}
+.navigation_bar_partner_panel_right_componenet p{
+    font-size: 1.5rem;
+    color: rgb(246, 245, 243);
+    font-weight: bold;
+}
+.logo h1{
+    cursor: pointer;
+    color: rgb(218, 255, 6);
+}
+/* 
+This is end of navigation bar css coding */
+
+/* This is partner body css coding */
+.partner_main_body_wrapper{
+    display: flex;
+    height: 100vh;
+}
+.left_warpper{
+    padding: 10px;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(248, 247, 245);
+}
+.welcome_image{
+    width: 100%;
+    height: 20em;
+    background: url("Assert/3908576.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.right_wrapper{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background: url("Assert/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tab_items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    background-color: rgb(235, 244, 244);
+    border: 1px solid rgb(105, 103, 103);
+}
+.tab_items button{
+    width: 100%;
+    background-color: rgb(235, 244, 244);
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    float: left;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #f77064;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    padding: 10px;
+    display: none;
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: #fffefe;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .tabcontent h3{
+    font-size: 1.8rem;
+    color: #f77064;
+  }
+  .tabcontent p{
+    margin-top: 10px;
+    color: rgb(88, 82, 75);
+  }
+  .firstView{
+    display: block;
+  }
+
+
+  .user_input_main_wrapper{
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .search_item_add_event_page{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  .user_input_letft_wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .userinputItems{
+    margin-top: 10px;
+  }
+  .userinputItems input{
+    height: 2.5em;
+    width: 15em;
+  }
+  .userinputItems label{
+    color: #393737;
+    font-size: 1.2rem
+    ;
+  }
+  .crud_button{
+    text-align: center;
+    margin-top: 25px;
+  }
+  .crud_button button:nth-child(1){
+    cursor: pointer;
+    background-color: rgb(45, 155, 246);
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 5em;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .crud_button button:nth-child(2){
+    cursor: pointer;
+    background-color: rgb(25, 155, 42);
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 5em;
+    padding: 5px;
+    border-radius: 5px;
+}
+.crud_button button:nth-child(3){
+    cursor: pointer;
+    background-color: rgb(190, 17, 17);
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 5em;
+    padding: 5px;
+    border-radius: 5px;
+}
+.userinputItems button{
+    cursor: pointer;
+    background-color: rgb(45, 155, 246);
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 5em;
+    padding: 5px;
+    border-radius: 5px;
+}
