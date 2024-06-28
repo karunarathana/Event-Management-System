@@ -1,0 +1,92 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url("Assert/Wedding\ planner-amico.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logingForm_component {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .logingForm_component form {
+        width: 80%;
+    }
+
+        .logingForm_component form label {
+            font-size: 1.2rem;
+            color: rgb(116, 115, 114);
+        }
+
+#select_user_input select {
+    width: 95%;
+    margin-bottom: 15px;
+    height: 3em;
+}
+
+.logingForm_component form input {
+    width: 95%;
+    margin-bottom: 15px;
+    height: 3em;
+}
+
+.logingForm_component_input_item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.loggin_btn_input_componet {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#Login {
+    font-size: 1.1rem;
+    width: 7.5em;
+    height: 2.5em;
+    background-color: white;
+    color: #FA7436;
+    border: 1px solid #FA7436;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#Register {
+    font-size: 1.1rem;
+    width: 7.5em;
+    height: 2.5em;
+    background-color: white;
+    color: #FA7436;
+    border: 1px solid #FA7436;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#redirect_account_page {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.logingForm_component form h1 {
+    color: #0f0fd3;
+    text-align: center;
+    margin-bottom: 20px;
+}
